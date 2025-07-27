@@ -1,0 +1,105 @@
+# .gitignore for Python Data Engineering Project
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+coverage.xml
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+### IDE ###
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# macOS
+.DS_Store
+
+### Data ###
+# Input data files
+data/raw/
+data/processed/
+*.csv
+*.parquet
+*.json
+*.xlsx
+*.feather
+
+# Sensitive data
+.env
+*.env
+secrets.yml
+config.yml
+credentials.json
+
+### Virtual Environment ###
+# Virtualenv
+venv/
+ENV/
+env/
+.env/
+.venv/
+
+# Conda environment
+*.conda
+conda-env/
+
+### Logs ###
+*.log
+logs/
+
+### Database ###
+*.db
+*.sqlite
+*.dump
+
+### Other ###
+# Temp files
+*.swp
+*.swo
+*~
