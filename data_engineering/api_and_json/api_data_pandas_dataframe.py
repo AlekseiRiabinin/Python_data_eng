@@ -122,4 +122,4 @@ def fetch_api_data(
 
 
 # Usage:
-# df = api_to_dataframe("https://api.example.com/transactions")
+df = api_to_dataframe("https://api.example.com/transactions")

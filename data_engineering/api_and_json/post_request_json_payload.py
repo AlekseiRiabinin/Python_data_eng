@@ -20,4 +20,4 @@ def post_json_data(url: str, payload: dict[str, Any]) -> Optional[dict[str, Any]
 
 
 # Usage:
-# result = post_json_data("https://api.example.com/users", {"name": "John"})
+result = post_json_data("https://api.example.com/users", {"name": "John"})

@@ -23,4 +23,4 @@ def fetch_api_data(
 
 
 # Usage:
-# user_data = fetch_api_data("https://jsonplaceholder.typicode.com/users/1")
+user_data = fetch_api_data("https://jsonplaceholder.typicode.com/users/1")

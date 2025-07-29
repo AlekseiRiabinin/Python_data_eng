@@ -70,7 +70,7 @@ def fetch_multiple_endpoints(
 
 
 # Usage:
-# results = fetch_multiple_endpoints([
-#     "https://api.example.com/users/1",
-#     "https://api.example.com/users/2"
-# ])
+results = fetch_multiple_endpoints([
+    "https://api.example.com/users/1",
+    "https://api.example.com/users/2"
+])
