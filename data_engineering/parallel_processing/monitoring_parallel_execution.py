@@ -30,7 +30,7 @@ def monitored_parallel_execution(
         futures = {
             ex.submit(task['func'],
             **task['args']): task['id'] for task in tasks
-        }        
+        }
         for future in as_completed(futures):
             task_id = futures[future]
             try:

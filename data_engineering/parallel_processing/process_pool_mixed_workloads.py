@@ -40,5 +40,5 @@ def process_io_task(task: dict[str, Any]) -> dict[str, Any]:
 
 
 # Usage:
-tasks = [{'id': i, 'data': 'x'*i, 'complexity': i*100} for i in range(1, 50)]
+tasks = [{'id': i, 'data': 'x' * i, 'complexity': i * 100} for i in range(1, 50)]
 processed = mixed_workload_processing(tasks)

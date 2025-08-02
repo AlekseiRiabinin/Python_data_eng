@@ -28,11 +28,10 @@ def threaded_url_fetcher(
     for url in urls:
         while threading.active_count() > max_threads:
             threading.Event().wait(0.1)
-            
+
         thread = threading.Thread(target=fetch_url, args=(url, result_queue))
         thread.start()
         threads.append(thread)
-    
     for thread in threads:
         thread.join()
     

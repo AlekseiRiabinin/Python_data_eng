@@ -1,5 +1,5 @@
-from typing import Iterator, List, Dict, Any, Optional, TypedDict
 import time
+from typing import Iterator, Any, Optional, TypedDict
 from urllib.parse import urlparse, parse_qs, urlencode, urlunparse
 from api_data_pandas_dataframe import fetch_api_data
 

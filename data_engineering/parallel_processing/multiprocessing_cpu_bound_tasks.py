@@ -1,7 +1,7 @@
 import math
 import multiprocessing
-from typing import Any
 from multiprocessing import Pool
+from typing import Any
 
 
 def process_chunk(data: list[dict[str, Any]]) -> list[dict[str, Any]]:
