@@ -9,9 +9,9 @@ from pyspark.sql.window import Window
 class SparkDataScience:
     """Common PySpark patterns for data science."""
     
-    def __init__(self: Self, spark: SparkSession):
+    def __init__(self: Self, spark: SparkSession) -> None:
         self.spark = spark
-    
+
     def calculate_rfm(
         self: Self, 
         transactions: DataFrame,

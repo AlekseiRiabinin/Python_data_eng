@@ -7,7 +7,7 @@ from pyspark.sql.dataframe import DataFrame
 class S3SparkIntegration:
     """AWS S3 integration for PySpark."""
     
-    def __init__(self: Self, spark: SparkSession):
+    def __init__(self: Self, spark: SparkSession) -> None:
         self.spark = spark
     
     def configure_s3(
